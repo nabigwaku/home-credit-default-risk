@@ -70,6 +70,7 @@ home-credit-default-risk/
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ## Project Workflow
