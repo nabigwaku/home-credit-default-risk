@@ -6,7 +6,7 @@ The data comes from the **Home Credit Default Risk** Kaggle competition and repr
 The goal of the data is to predict whether a loan applicant will **default on their loan**.
 
 **Data Relationship**
-![data re/s](image.png)
+![data re/s](data_relationship.png)
 
 ## 1. Main Application Data
 
