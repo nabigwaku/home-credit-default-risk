@@ -70,7 +70,7 @@ home-credit-default-risk/
 
 ## Project Workflow
 
-![Project Flow Diagram](<Project Flow.png>)
+![Project Flow Diagram](image.png)
 
 ----
 
