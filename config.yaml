@@ -1,0 +1,84 @@
+# Home Credit Default Risk - Configuration File
+
+# File paths
+data_path: "./data/raw_data/"
+features_path: "./features/"
+models_path: "./models/"
+submissions_path: "./submissions/"
+
+# Data files
+files:
+  application_train: "application_train.csv"
+  application_test: "application_test.csv"
+  bureau: "bureau.csv"
+  bureau_balance: "bureau_balance.csv"
+  previous_application: "previous_application.csv"
+  pos_cash_balance: "POS_CASH_balance.csv"
+  installments_payments: "installments_payments.csv"
+  credit_card_balance: "credit_card_balance.csv"
+  columns_description: "HomeCredit_columns_description.csv"
+
+# Feature engineering settings
+feature_engineering:
+  # Aggregation functions for numeric columns
+  numeric_aggregations: ["mean", "min", "max", "sum", "var"]
+  
+  # Aggregation functions for categorical columns
+  categorical_aggregations: ["count", "nunique"]
+  
+  # Columns to exclude from feature engineering
+  exclude_columns: ["SK_ID_CURR", "SK_ID_PREV", "SK_ID_BUREAU", "TARGET"]
+  
+  # Memory optimization
+  downcast_dtypes: true
+
+# Model training settings
+model:
+  # Model to use (options: xgboost, lightgbm, catboost, random_forest, logistic)
+  model_type: "lightgbm"
+  
+  # Test size for validation split
+  test_size: 0.2
+  
+  # Random seed for reproducibility
+  random_state: 42
+  
+  # Cross-validation settings
+  cv_folds: 5
+  cv_strategy: "stratified"
+  
+  # Evaluation metric
+  eval_metric: "roc_auc"
+
+# Hyperparameters (will be used based on model_type)
+hyperparameters:
+  lightgbm:
+    n_estimators: 1000
+    learning_rate: 0.05
+    max_depth: -1
+    num_leaves: 31
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 0.1
+    
+  xgboost:
+    n_estimators: 1000
+    learning_rate: 0.05
+    max_depth: 6
+    subsample: 0.8
+    colsample_bytree: 0.8
+    
+  catboost:
+    iterations: 1000
+    learning_rate: 0.05
+    depth: 6
+    l2_leaf_reg: 3
+
+# Submission settings
+submission:
+  # Prediction threshold (probability above this is classified as 1)
+  threshold: 0.5
+  
+  # File name for submission
+  file_name: "submission.csv"
