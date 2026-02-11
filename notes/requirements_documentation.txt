@@ -1,0 +1,60 @@
+# ==============================
+# 1. CORE BASICS 
+# ==============================
+
+# NumPy – handle numbers, arrays, and math operations
+# Pandas – clean, explore, and manipulate tabular data
+
+# ==============================
+# 2. DATA VISUALIZATION
+# ==============================
+
+# Matplotlib – create basic charts (line, bar, scatter)
+# Seaborn – better-looking statistical plots
+# Plotly – interactive visualizations
+
+# ==============================
+# 3. DATA SCIENCE & ML TOOLS
+# ==============================
+
+# Scikit-learn – train, test, and evaluate ML models
+# SciPy – scientific computing and advanced math
+
+# ==============================
+# 4. ADVANCED ML MODELS
+# (learn after scikit-learn)
+# ==============================
+
+# XGBoost – high-performance boosting model
+# LightGBM – fast and memory-efficient boosting
+# CatBoost – boosting with strong categorical support
+
+# ==============================
+# 5. WORK ENVIRONMENT
+# ==============================
+
+# Jupyter – interactive coding environment
+# Notebook – file format for Jupyter work
+# IPython – enhanced Python shell
+# ipywidgets – interactive controls in notebooks
+
+# ==============================
+# 6. CONFIGURATION & SECRETS
+# ==============================
+
+# PyYAML – manage configs using YAML files
+# python-dotenv – store secrets safely in .env files
+
+# ==============================
+# 7. PERFORMANCE & SCALING
+# (optional, later)
+# ==============================
+
+# Joblib – parallel processing and model saving
+# Dask – scale computations for big datasets
+
+# ==============================
+# 8. QUALITY OF LIFE
+# ==============================
+
+# tqdm – progress bars for long-running tasks

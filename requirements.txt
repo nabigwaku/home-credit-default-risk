@@ -1,0 +1,32 @@
+# data science libraries
+numpy 
+pandas
+scikit-learn
+scipy
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Machine learning models
+xgboost
+lightgbm
+catboost
+
+# Utilities
+jupyter
+notebook
+ipython
+ipywidgets
+
+# Configuration
+pyyaml
+python-dotenv
+
+# Optional: for memory optimization
+joblib
+dask
+
+# Data processing
+tqdm
