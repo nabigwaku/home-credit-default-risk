@@ -45,7 +45,7 @@ Modeling is performed at the applicant level (SK_ID_CURR).
 
 
 ## Project Structure
-
+```text
 home-credit-default-risk/
 │
 ├── data/
@@ -71,7 +71,6 @@ home-credit-default-risk/
 ├── requirements.txt
 └── README.md
 
----
 
 ## Project Workflow
 
