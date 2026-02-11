@@ -36,11 +36,6 @@ The dataset includes:
 - Previous Home Credit loan applications  
 - Repayment and behavioral credit data  
 
-Characteristics:
-- Multi-table relational structure  
-- High class imbalance (~8% default rate)  
-- Significant missing values (lending complexity)  
-
 Modeling is performed at the applicant level (SK_ID_CURR).
 
 
