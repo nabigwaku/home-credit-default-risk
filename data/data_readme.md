@@ -1,7 +1,7 @@
 # Data README – Home Credit Default Risk
 
 This folder contains the raw datasets used for the **Credit Risk / Default Prediction** project.  
-The data comes from the **Home Credit Default Risk** Kaggle competition and represents real-world lending, credit bureau, and repayment behavior.
+The data comes from the **Home Credit Default Risk** Kaggle competition and represents lending, credit bureau, and repayment behavior.
 
 The goal of the data is to predict whether a loan applicant will **default on their loan**.
 
