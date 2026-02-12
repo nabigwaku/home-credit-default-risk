@@ -8,7 +8,7 @@ The goal of the data is to predict whether a loan applicant will **default on th
 ----
 
 # Data Relationship
-![data re/s](notes/data_relationship.png)
+![data re/s](data_relationship.png)
 
 ----
 
