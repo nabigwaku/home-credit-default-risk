@@ -1,0 +1,14 @@
+{
+    "target_distribution": {
+        "0": 91.92711805431351,
+        "1": 8.072881945686495
+    },
+    "data_shape": [
+        307511,
+        123
+    ],
+    "missing_values": 9152465,
+    "missing_percentage": 24.197600916014558,
+    "numeric_features": 66,
+    "categorical_features": 16
+}
